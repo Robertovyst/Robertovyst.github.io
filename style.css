@@ -1,0 +1,103 @@
+body 
+{
+ background-position: center;
+ background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("flamengo.jpg");
+ font-family: Tahoma, Arial;
+ color: white;
+} 
+h1
+{
+text-align: center;
+font-family: Comic Sans;
+}
+p
+{
+	white-space: normal;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+footer
+{
+background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+position: fixed;
+text-align: center;
+width: 100%;
+left: 0;
+bottom: 0;
+padding: 1px;
+}
+img,video
+{
+ max-width: 100%;
+ align-content: center;
+}
+nav
+{
+text-align: center;
+font-weight: bold;
+
+}
+nav li
+{
+height:auto;
+margin:00px;
+padding: 8px 5px;
+display:inline;
+}
+nav a:hover
+{
+color:red;
+background-color:#4F4F4F;
+}
+a
+{
+color:#B22222;
+text-decoration: none;
+position: relative;
+}
+@media all and (min-width:960px)
+{
+body
+{
+width:960px;
+margin:auto;
+}	
+}
+@media all and (max-width:640px)
+{
+nav
+{
+height:100%;
+}
+nav li
+}
+{
+display:block;
+padding:10px;
+margin:0px;	
+}
+.fla 
+{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4px;
+}
+
+.fla h4 
+{
+	
+    grid-column: span 4;
+    margin: 2px  1px;
+	text-align:center;
+}
+
+.fla p 
+{
+    line-height: 1.1;
+    margin: 0px 0px;
+}
+.mengo p
+{
+ margin: 0px 0px;
+}
